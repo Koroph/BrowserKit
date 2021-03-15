@@ -1,5 +1,5 @@
 {
-    "name": "kh/browserkit",
+    "name": "darcflow/browserkit",
     "description": "\"get user browser information\"",
     "type": "libraray",
     "require": {
