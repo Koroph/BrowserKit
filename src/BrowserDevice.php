@@ -14,7 +14,6 @@ namespace KH\Browser\Kit;
 class BrowserDevice
 {
 
-
     private static function userAgent()
     {
         return $_SERVER['HTTP_USER_AGENT'];
