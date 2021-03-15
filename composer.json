@@ -1,0 +1,40 @@
+{
+    "name": "kh/browserkit",
+    "description": "\"get user browser information\"",
+    "type": "libraray",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Koroph",
+            "homepage": "http://koroph.site",
+            "email": "yjkof1596@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KH\\Browser\\Kit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KH\\Browser\\Kit\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "version": "1.0",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
